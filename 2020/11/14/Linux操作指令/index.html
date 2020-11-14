@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>lailiang</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Linux操作指令1.常用操作命令 [参数1 参数2 ...] [命令作用的对象]  who &#x2F; w    -    查看谁登录了系统  -q    -    统计登录人数   clear    -    清除屏幕上的输出  cal    -    查看日历  -3    -    显示前后3个月的日历   date    -    查看时间日期  whatis    -    查看命令描述  w">
+<meta property="og:type" content="article">
+<meta property="og:title" content="lailiang">
+<meta property="og:url" content="http://example.com/2020/11/14/Linux%E6%93%8D%E4%BD%9C%E6%8C%87%E4%BB%A4/index.html">
+<meta property="og:site_name" content="lailiang">
+<meta property="og:description" content="Linux操作指令1.常用操作命令 [参数1 参数2 ...] [命令作用的对象]  who &#x2F; w    -    查看谁登录了系统  -q    -    统计登录人数   clear    -    清除屏幕上的输出  cal    -    查看日历  -3    -    显示前后3个月的日历   date    -    查看时间日期  whatis    -    查看命令描述  w">
+<meta property="og:locale">
+<meta property="article:published_time" content="2020-11-14T06:05:20.535Z">
+<meta property="article:modified_time" content="2020-11-14T06:05:20.535Z">
+<meta property="article:author" content="赖良">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="lailiang" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 5.2.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">lailiang</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-Linux操作指令" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/11/14/Linux%E6%93%8D%E4%BD%9C%E6%8C%87%E4%BB%A4/" class="article-date">
+  <time datetime="2020-11-14T06:05:20.535Z" itemprop="datePublished">2020-11-14</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="Linux操作指令"><a href="#Linux操作指令" class="headerlink" title="Linux操作指令"></a>Linux操作指令</h1><h2 id="1-常用操作"><a href="#1-常用操作" class="headerlink" title="1.常用操作"></a>1.常用操作</h2><p><code>命令 [参数1 参数2 ...] [命令作用的对象]</code></p>
+<ul>
+<li><p><code>who / w</code>    -    查看谁登录了系统</p>
+<ul>
+<li><code>-q</code>    -    统计登录人数</li>
+</ul>
+</li>
+<li><p><code>clear</code>    -    清除屏幕上的输出</p>
+</li>
+<li><p><code>cal</code>    -    查看日历</p>
+<ul>
+<li><code>-3</code>    -    显示前后3个月的日历</li>
+</ul>
+</li>
+<li><p><code>date</code>    -    查看时间日期</p>
+</li>
+<li><p><code>whatis</code>    -    查看命令描述</p>
+</li>
+<li><p><code>whereis</code>    -    获取命令的路径</p>
+</li>
+<li><p><code>shutdown</code>    -    关机或者重启</p>
+<ul>
+<li><code>-c</code>    -    取消关机</li>
+</ul>
+</li>
+<li><p><code>logout/exit</code>    -    退出登录</p>
+</li>
+<li><p><code>ps</code>    -    查看进程信息</p>
+<ul>
+<li><code>-a</code>    -    显示所有程序</li>
+<li><code>-u</code>    -    以用户为主的格式来显示</li>
+<li><code>-x</code>    -    显示所有程序，不以终端机来区分</li>
+</ul>
+</li>
+<li><p><code>history</code>    -    查看历史命令</p>
+</li>
+<li><ul>
+<li><code>!历史命令编号</code>    -    重新执行历史命令</li>
+<li><code>-c</code>    -    清除历史命令</li>
+</ul>
+</li>
+<li><p><code>!!</code>    -    执行上一条命令</p>
+</li>
+<li><p><code>write 用户名</code>    -    给其他用户发消息</p>
+</li>
+<li><p><code>wall</code>    -    给所有人发消息</p>
+</li>
+</ul>
+<h3 id="程序前后台切换"><a href="#程序前后台切换" class="headerlink" title="程序前后台切换"></a>程序前后台切换</h3><ul>
+<li><p><code>jobs</code>    -    查看后台程序命令</p>
+</li>
+<li><p><code>&amp;</code>    -    在Linux终端运行命令时在末尾加上&amp;，就可以让程序在后台运行</p>
+</li>
+<li><p><code>Ctrl + z</code>    -    程序暂停</p>
+</li>
+<li><p><code>Ctrl + c</code>    -    程序结束</p>
+</li>
+<li><p><code>bg %[number]</code>    -    把程序放入后台执行</p>
+</li>
+<li><p><code>fg %[number]</code>    -    把程序掉到前台</p>
+</li>
+<li><p><code>kill</code>    -    杀掉后台</p>
+<ul>
+<li><code>-9</code>    -    强杀</li>
+</ul>
+</li>
+<li><p><code>pkill/killall</code>    -    杀后台</p>
+</li>
+</ul>
+<h3 id="搜索命令"><a href="#搜索命令" class="headerlink" title="搜索命令"></a>搜索命令</h3><ul>
+<li>grep</li>
+<li>find</li>
+</ul>
+<h3 id="网络相关"><a href="#网络相关" class="headerlink" title="网络相关"></a>网络相关</h3><ul>
+<li> <code>wget</code>    -    网络下载器</li>
+<li><code>scp</code>    -    安全的文件拷贝</li>
+<li><code>sftp</code>    -    安全的文件传输</li>
+<li><code>ping</code>    -    网络可达性检查</li>
+<li><code>ifconfig/ip</code>     -    本机网络信息</li>
+<li><code>netstat</code>    -    查看网络端口使用情况<ul>
+<li><code>-n</code>:以数值的方式查询网络端口信息</li>
+<li><code>-t</code>:TCP（只查看TCP协议的连接）</li>
+<li><code>-l</code>:listen（监听状态)</li>
+<li><code>-p</code>:process（进程）</li>
+</ul>
+</li>
+<li><code>ssh</code>    -    安全远程连接<ul>
+<li>如果公司有多台云服务器，可以从一台服务器连接到其他服务器<pre><code>一般情况下，多台服务器中只有一台允许从公网直接访问，其他
+服务器都要通过这台服务器使用`ssh`的方式进行连接，不允许从
+公网直接访问，相当于做了物理隔离，而这台可以从公网通过
+SSH直接访问的服务器，我们通常称之为跳板机（跳板服务器）。</code></pre>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="2-常用快捷键"><a href="#2-常用快捷键" class="headerlink" title="2.常用快捷键"></a>2.常用快捷键</h2><ul>
+<li><code>Tab</code>    -    命令补全和路径补全</li>
+<li><code>Ctrl + c</code>    -    终止一个命令的执行</li>
+<li><code>Ctrl + w</code>    -    删除一个单词</li>
+<li><code>Ctrl + u</code>    -    删除整行</li>
+<li><code>Ctrl + a</code>    -    光标回到行首</li>
+<li><code>Ctrl + e</code>    -    光标去到行尾</li>
+<li><code>Ctrl + d</code>    -    结束输入</li>
+<li><code>Ctrl + z</code>    -    把一个正在运行的命名暂时放到后台  </li>
+</ul>
+<h2 id="3-文件管理"><a href="#3-文件管理" class="headerlink" title="3.文件管理"></a>3.文件管理</h2><ul>
+<li><code>pwd</code>    -    <code>print working directory</code>显示当前工作目录</li>
+<li><code>cd</code>    -    <code>change directory</code>切换工作目录<ul>
+<li>绝对路径：/</li>
+<li>相对路径：以当前路径为基础<ul>
+<li><code>.</code>    :当前目录</li>
+<li><code>..</code>    :当前上级目录</li>
+</ul>
+</li>
+<li><code>/root</code> : 超级管理员的用户主目录</li>
+<li><code>/home</code> : 普通用户的用户主目录</li>
+<li><code>/etc</code> :配置文件</li>
+<li><code>/usr</code>  : 可执行的命令以及用户安装的程序</li>
+<li><code>/var</code> : 程序运行中产生的数据和日志</li>
+<li><code>/proc</code> : 进程文件<ul>
+<li><code>cpuinfo/meminfo</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>ls</code>     -    <code>list directory contents</code><ul>
+<li><code>a</code>    -    <code>all</code> : 显示所有</li>
+<li><code>l</code>    -    <code>long</code> : 长格式查看<ul>
+<li><code>-</code>:文件</li>
+<li><code>d</code>:文件夹</li>
+<li><code>l</code>:软连接</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>cat</code>    -    <code>concatenate</code>:连接多个文件（查看文件内容）<ul>
+<li><code>-n</code>    -    <code>number</code>:显示行号</li>
+</ul>
+</li>
+<li><code>mkdir</code>    -    <code>make directory</code>:创建文件夹</li>
+<li><code>rmdir</code>    -    <code>remove empty directory</code>:删除空文件夹</li>
+<li><code>touch</code>    -    创建空文件夹或者修改文件的最后访问时间</li>
+<li><code>rm</code>    -    <code>remove</code>：删除文件或者文件夹<ul>
+<li><code>-i</code>    -    <code>interactive</code>:交互式删除</li>
+<li><code>-f</code>    -    <code>force</code>:强制删除</li>
+<li><code>-r</code>    -    <code>recursive</code>:递归式删除</li>
+</ul>
+</li>
+<li>查看文件：<code>cat/tac/head/tail/more/less/od/rev</code></li>
+<li><code>cp</code>    -    <code>copy</code>: 复制拷贝文件<ul>
+<li><code>-r</code>    -    <code>recursive</code>: 递归式拷贝</li>
+</ul>
+</li>
+<li><code>mv</code>     -    <code>move</code>: 移动文件<ul>
+<li>在相同的路径下移动文件相当于是重命名操作</li>
+<li>如果需要批量修改文件名（或后缀）可以使用rename</li>
+</ul>
+</li>
+<li><code>file</code>    -    查看文件的性质</li>
+<li><code>wc</code>    -    <code>word count</code>: 统计文件的字符数、单词数、行数<ul>
+<li><code>-l</code>    -    <code>line</code>: 行数</li>
+<li><code>-w</code>    -    <code>word</code>: 单词数（中文文件不准确）</li>
+<li><code>-c</code>     -   <code>character</code>: 字符数（中文文件不准确）</li>
+</ul>
+</li>
+<li><code>uniq</code>    -    <code>unique</code>: 去重<ul>
+<li><code>-c</code>    -    <code>count</code>: 统计重复次数</li>
+</ul>
+</li>
+<li><code>sort</code>    -    排序<ul>
+<li><code>-r</code>    -    <code>reverise</code>: 反转</li>
+<li><code>-n</code>    -    <code>number</code>: 按数值大小排序</li>
+</ul>
+</li>
+<li><code>iconv</code>    -    编码转换<ul>
+<li><code>-f</code>    -    <code>from</code>: 原始编码</li>
+<li><code>-t</code>    -    <code>target</code>: 目标编码</li>
+</ul>
+</li>
+<li><code>cut</code></li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2020/11/14/Linux%E6%93%8D%E4%BD%9C%E6%8C%87%E4%BB%A4/" data-id="ckhhafk4p00001gpj1efshh39" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2020/11/13/Day4-Day5%E6%95%B0%E5%AD%97%E5%92%8C%E5%88%97%E8%A1%A8/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title"></div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/11/">November 2020</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2020/11/14/Linux%E6%93%8D%E4%BD%9C%E6%8C%87%E4%BB%A4/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2020/11/13/Day4-Day5%E6%95%B0%E5%AD%97%E5%92%8C%E5%88%97%E8%A1%A8/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2020/11/13/Day11-%E9%AB%98%E9%98%B6%E5%87%BD%E6%95%B0%E5%92%8C%E8%A3%85%E9%A5%B0%E5%99%A8/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2020/11/13/%E8%AF%AD%E6%B3%95/">(no title)</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2020 赖良<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+  </div>
+</body>
+</html>
